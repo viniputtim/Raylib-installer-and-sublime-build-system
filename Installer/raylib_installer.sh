@@ -4,7 +4,9 @@
 sudo apt update
 
 # Instale as dependências
-sudo apt install -y build-essential git cmake libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxinerama-dev libwayland-dev libxkbcommon-dev
+sudo apt install -y build-essential git cmake libasound2-dev libx11-dev libxrandr-dev libxi-dev \
+libgl1-mesa-dev libglu1-mesa-dev libglfw3 libglfw3-dev libxcursor-dev libxinerama-dev libwayland-dev \
+libxkbcommon-dev
 
 # Clone o repositório raylib
 git clone https://github.com/raysan5/raylib.git raylib
@@ -26,6 +28,3 @@ sudo make install
 
 # Atualize as configurações de linker
 sudo ldconfig
-
-# Instale a libglfw
-sudo apt install libglfw3 libglfw3-dev
