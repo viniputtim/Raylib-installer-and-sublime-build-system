@@ -26,3 +26,6 @@ sudo make install
 
 # Atualize as configurações de linker
 sudo ldconfig
+
+# Instale a libglfw
+sudo apt install libglfw3 libglfw3-dev
