@@ -1,0 +1,3 @@
+{
+    "shell_cmd": "python3 /home/vinicius/.config/sublime-text/Packages/User/cpp_builder.py $file_name $file_path raylib"
+}
