@@ -2,14 +2,14 @@
 
 # Development Tools
 
-## `\U+1F6E0` Raylib Installer
+## 🛠️ Raylib Installer
 
 Automates the installation process of Raylib and its dependencies.
 
-## `\U+1F9F0 Sublime Build System`
+## 🧰 Sublime Build System`
 
 Automates the compilation process for multiple C++ files and C++ with Raylib.
 
-## `\U+2699` Sublime Settings
+## ⚙️ Sublime Settings
 
 Some useful settings for Sublime Text.
